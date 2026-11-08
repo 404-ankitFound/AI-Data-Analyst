@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models and large files
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.gguf
+
+# IDE
+.vscode/
+.idea/
